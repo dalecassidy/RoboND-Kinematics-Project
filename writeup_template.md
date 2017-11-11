@@ -127,6 +127,7 @@ end-effector's orientation and translate backward from the end-effector by the l
 of the sum of d6 and the end-effector length. This gives us wc (wrist center). 
 
 ![alt text][image4]
+
 ![alt text][image5]
 
 ##### Inverse Orientation:
