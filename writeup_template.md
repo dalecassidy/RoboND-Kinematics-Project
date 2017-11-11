@@ -122,7 +122,7 @@ the frame from the DH table did not match the orientation of the default value i
 #### 3. Decouple Inverse Kinematics problem into Inverse Position Kinematics and inverse Orientation Kinematics; doing so derive the equations to calculate all individual joint angles.
 
 ##### Inverse Position:
-First we find the orthonormal vector representing the Z axis in the local coordinate frame of the'
+First we find the orthonormal vector representing the Z axis in the local coordinate frame of the
 end-effector's orientation and translate backward from the end-effector by the length 
 of the sum of d6 and the end-effector length. This gives us wc (wrist center). 
 
