@@ -149,7 +149,7 @@ theta6 = atan2(-R3_6[1,1], R3_6[1,0])
 
 #### 1. Fill in the `IK_server.py` file with properly commented python code for calculating Inverse Kinematics based on previously performed Kinematic Analysis. Your code must guide the robot to successfully complete 8/10 pick and place cycles. Briefly discuss the code you implemented and your results. 
 
-I implemented the techniques described above in IK_server.py. I noticed that some of theta solutions were 2pi instead
+I implemented the techniques described above in IK_server.py. I noticed that some of theta solutions were 2*pi instead
 of just 0, which made the revolute joint needlessly rotate all the way around. If I had more time, I would 
 check to see if theta was greater than 2*pi and then subtract that out. My program did do a relatively good job
 of the pick and place passing the minimum specifications of 8 out of 10. Sometimes it would get stuck with joint
