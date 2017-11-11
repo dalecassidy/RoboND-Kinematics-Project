@@ -34,11 +34,10 @@ a(i-1) is the distance from Z(i-1) to Z(i) measured along X(i-1). For a1, the di
 Z(1) and Z(2) along X(1) is just the distance in the urdf file of joint 1 to joint 2 along X which
 is 0.35. a(2) and a(3) are derived similarly.
 
-Theta is the angle between X(i-1) to X(i) measured about Z(i) in a right hand sense. For the revolute
-joints which all are joints are this quantity will just be that variable. This is the case for 
-theta(1), theta(3), theta(4), theta(5) and theta(6). Theta(2) is a bit tricky. It has an offset of -pi/2 because that's the angle you would rotate X(1) to X(2)
-along Z(2). theta(7) is 0 because that line in the DH table just explains translation from joint 6
-to the end Effector. There is no revolute joint 7.
+Theta is the angle between X(i-1) to X(i) measured about Z(i) in a right hand sense.
+For theta(1), theta(3), theta(4), theta(5) and theta(6) this is just a variable quantity. Theta(2) is a bit tricky. It has an offset of -pi/2 because that's the angle you would rotate X(1) to X(2)
+along Z(2). theta(7) is 0 because that line in the DH table just explains the translation from joint 6
+to the end-effector. There is no revolute joint 7.
 
 
 #### 2. Using the DH parameter table you derived earlier, create individual transformation matrices about each joint.
